@@ -1,10 +1,10 @@
-# 💼 AI Destekli Akıllı Kariyer & İş Tavsiye Portalı
+#  AI Destekli Akıllı Kariyer & İş Tavsiye Portalı
 
 Bu proje; veri bilimi, makine öğrenmesi ve veri analitiği alanındaki binlerce iş ilanını doğal dil işleme (NLP) ve bilgi erişimi (Information Retrieval) teknikleriyle analiz eden, adayların yüklediği PDF özgeçmişleri değerlendirerek en uygun pozisyonları sıralayan ve adaya özel **Kariyer Açığı (Skill Gap)** analizi sunan uçtan uca bir veri mühendisliği ve yapay zeka sistemidir.
 
 ---
 
-## 🌟 Öne Çıkan Özellikler
+## Öne Çıkan Özellikler
 
 - **Dinamik PDF CV Analizi:** Adayın yüklediği PDF özgeçmişi `pypdf` ile ayrıştırılır, metin ön işleme filtrelerinden geçirilir ve profil yetenekleri kural tabanlı olarak çıkarılır.
 - **TF-IDF & Kosinüs Benzerliği Sıralaması:** 3.699 iş ilanı ile aday profili 5.000 boyutlu n-gram (1, 2) vektör uzayına projekte edilerek en uygun pozisyonlar milisaniyeler içinde derecelendirilir.
@@ -14,7 +14,7 @@ Bu proje; veri bilimi, makine öğrenmesi ve veri analitiği alanındaki binlerc
 
 ---
 
-## 🛠️ Mimari & Teknoloji Yığını
+## Mimari & Teknoloji Yığını
 
 | Katman | Teknolojiler | Açıklama |
 | :--- | :--- | :--- |
@@ -26,7 +26,7 @@ Bu proje; veri bilimi, makine öğrenmesi ve veri analitiği alanındaki binlerc
 
 ---
 
-## 📂 Proje Dizin Yapısı
+## Proje Dizin Yapısı
 
 kariyer_tavsiye_sistemi/
 ├── app.py                     # Streamlit çok sekmeli web uygulaması
@@ -49,7 +49,7 @@ kariyer_tavsiye_sistemi/
 
 ---
 
-## ⚙️ Kurulum ve Çalıştırma Adımları
+## Kurulum ve Çalıştırma Adımları
 
 1. Depoyu Klonlayın ve Sanal Ortamı Başlatın
    git clone [https://github.com/kullaniciadi/kariyer-tavsiye-sistemi.git](https://github.com/kullaniciadi/kariyer-tavsiye-sistemi.git)
@@ -72,7 +72,7 @@ kariyer_tavsiye_sistemi/
 
 ---
 
-## 📊 Sistem Doğrulama ve Performans Testleri
+## Sistem Doğrulama ve Performans Testleri
 
 Sistemin uç durum (edge case) toleransı ve çıkarım hızını doğrulamak için:
 python run_system_tests.py
