@@ -1,0 +1,9 @@
+# Sanal Ortam (KESİNLİKLE GİTMEMELİ)
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Büyük veri ve geçici dosyalar (İsteğe bağlı)
+.DS_Store
+*.log
